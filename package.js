@@ -12,7 +12,7 @@ Package.onUse(function(api) {
   // Adding dependencies, bootstrap dependency
   // intentionally left out
   api.use('jquery', 'client');
-  api.use('comerc:bs-typeahead');
+  api.use('comerc:bs-typeahead@1.0.2');
 
   // Adding library files
   api.add_files([
