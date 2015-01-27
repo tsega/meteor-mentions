@@ -1,6 +1,6 @@
 Package.describe({
   name: 'tsega:mentions',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: '@metions for Meteor Apps',
   git: 'https://github.com/tsega/meteor-mentions',
   documentation: 'README.md'
@@ -12,11 +12,11 @@ Package.onUse(function(api) {
   // Adding dependencies, bootstrap dependency
   // intentionally left out
   api.use('jquery', 'client');
-  api.use('comerc:bs-typeahead@1.0.2');
 
   // Adding library files
   api.add_files([
     'lib/css/mention.css',
     'lib/js/mention.js',
+    'lib/js/bootstrap-typeahead2.js'
     ], 'client');
 });
