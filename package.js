@@ -1,6 +1,6 @@
 Package.describe({
   name: 'tsega:mentions',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: '@metions for Meteor Apps',
   git: 'https://github.com/tsega/meteor-mentions',
   documentation: 'README.md'
